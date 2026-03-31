@@ -48,7 +48,57 @@ div#login > div#imagem {
     
 }
 
+div#login > h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+div#login > p {
+    font-size: 18px;
+    padding: 12px;
+    text-align: justify
+}
+
 div#formulario {
     display: block;
     padding: 15px;
+    background-color: rgb(238, 238, 238);
+    width: 95%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+form > input[type=submit] {
+    display: block;
+    width: 100%;
+    margin: auto;
+    height: 28px;
+    background-color: #93BBFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.329);
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #718fc2;
+}
+
+a.botao {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #6257aa;
+    font-size: 17px;
+    margin: 5px 80px 0px 80px
+}
+
+
+
+a.botao:hover {
+    text-decoration: underline;
+    color: rgb(32, 20, 59) ;
 }

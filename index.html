@@ -7,22 +7,32 @@
 
     <link rel="stylesheet" href="stilo/style.css">
     <link rel="stylesheet" href="stilo/screen.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
 </head>
 <body>
         <div id="login">
-            <div id="imagem">
+            <div id="imagem"></div>
 
-            </div>
+            <h1>Olá, Seja bem-vindo(a)!</h1>
+            <p>Faça seu login para entrar na sua conta.</p>
+
             <div id="formulario">
-                <h1>Olá, Seja bem-vindo(a)!</h1>
-                <p>Faça seu login para entrar no site.</p>
-
+                
                 <form action="login.php" method="post" autocomplete="on">
-                    <label for="id-user">Digite seu usuário:</label>
-                    <input type="text" name="user" id="id-user">
-                        
-                    <label for="id-senha">Digite sua Senha:</label>
-                    <input type="password" name="senha" id="id-senha">
+                    <div class="campo">
+                        <label for="id-user"><span class="material-symbols-outlined">mail</span></label>
+                        <input type="text" name="user" id="id-user" placeholder="Informe seu Email" required autocomplete="email" >
+                    </div> 
+                    <div class="campo">
+                        <label for="id-senha"><span class="material-symbols-outlined">lock</span></label>
+                        <input type="password" name="senha" id="id-senha" placeholder="Informe sua Senha" required autocomplete="current-password" minlength="8" max="15">
+                    </div>
+
+                    <input type="submit" value="Confirmar">
+                    <a href="#" class="botao">Esqueci minha senha <span class="material-symbols-outlined">help_center</span></a>
+                    
                 </form>
             </div>
         </div>
