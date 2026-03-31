@@ -28,15 +28,15 @@ div#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    
     background-color: white;
 
-    width: 95%;
-    height: 95%;
+    width: 90%;
+    height: 90%;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418)
-    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    transform: translate(-50%, -50%);
 }
 
 div#login > div#imagem {
@@ -48,30 +48,48 @@ div#login > div#imagem {
     
 }
 
-div#login > h1 {
+div#login  h1 {
+    font-size: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    margin-top: 20px;
+    margin: 20px;
 }
 
-div#login > p {
+div#login  p {
     font-size: 18px;
-    padding: 12px;
-    text-align: justify
+    text-align: justify;
+    margin: 15px;
 }
 
 div#formulario {
     display: block;
     padding: 15px;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(241, 241, 241);
     width: 95%;
     margin: auto;
     border-radius: 15px;
 }
 
 div.campo {
-    margin: 15px 0px;
-    background-color: aqua;
+    margin: 10px 0px;
+    
+    
+}
+
+div.campo > input {
+    height: 35px;
+    border: 1.5px solid rgb(141, 141, 141);
+    border-radius: 5px;
+    width: 86%;
+    padding: 5px;
+    transform: translateY(-5px);
+}
+
+div.campo span {
+    font-size: 30px;
+    transform: translateY(5px);
+    margin-right: 2px;
+    color:#221861 ;
 }
 
 form > input[type=submit] {
@@ -82,7 +100,7 @@ form > input[type=submit] {
     background-color: #93BBFF;
     border: none;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 15px;
     color: rgb(255, 255, 255);
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.329);
     cursor: pointer;
@@ -97,11 +115,14 @@ a.botao {
     text-decoration: none;
     text-align: center;
     color: #6257aa;
-    font-size: 17px;
-    margin: 5px 80px 0px 80px
+    font-size: 15px;
+    margin: 5px 40px 0px 40px
 }
 
-
+a.botao > span {
+    font-size: 20px;
+    transform: translateY(5px);
+}
 
 a.botao:hover {
     text-decoration: underline;

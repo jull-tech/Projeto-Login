@@ -15,25 +15,25 @@
         <div id="login">
             <div id="imagem"></div>
 
-            <h1>Olá, Seja bem-vindo(a)!</h1>
-            <p>Faça seu login para entrar na sua conta.</p>
-
-            <div id="formulario">
+            <div id="main">
+                <h1>Olá, Seja bem-vindo(a)!</h1>
+                <p>Faça seu login para entrar na sua conta e para conseguir acessar o site.</p>
+                <div id="formulario">
                 
-                <form action="login.php" method="post" autocomplete="on">
-                    <div class="campo">
-                        <label for="id-user"><span class="material-symbols-outlined">mail</span></label>
-                        <input type="text" name="user" id="id-user" placeholder="Informe seu Email" required autocomplete="email" >
-                    </div> 
-                    <div class="campo">
-                        <label for="id-senha"><span class="material-symbols-outlined">lock</span></label>
-                        <input type="password" name="senha" id="id-senha" placeholder="Informe sua Senha" required autocomplete="current-password" minlength="8" max="15">
-                    </div>
-
-                    <input type="submit" value="Confirmar">
-                    <a href="#" class="botao">Esqueci minha senha <span class="material-symbols-outlined">help_center</span></a>
-                    
-                </form>
+                    <form action="login.php" method="post" autocomplete="on">
+                        <div class="campo">
+                            <label for="id-user"><span class="material-symbols-outlined">mail</span></label>
+                            <input type="text" name="user" id="id-user" placeholder="Informe seu Email" required autocomplete="email" >
+                        </div>
+                        <div class="campo">
+                            <label for="id-senha"><span class="material-symbols-outlined">lock</span></label>
+                            <input type="password" name="senha" id="id-senha" placeholder="Informe sua Senha" required autocomplete="current-password" minlength="8" max="15">
+                        </div>
+                        <input type="submit" value="Confirmar">
+                        <a href="#" class="botao">Esqueci minha senha <span class="material-symbols-outlined">help_center</span></a>
+                
+                    </form>
+                </div>
             </div>
         </div>
 </body>

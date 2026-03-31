@@ -7,17 +7,23 @@
 
     div#login {
         width: 75%;
-        height: 90%;
+        height: 65%;
     }
+
+    
     div#login > div#imagem {
         float: left;
         width: 30%;
         height: 100%;
     }
 
-    div#login > div#formulario {
+    div#login > div#main {
         float: right;
         width: 70%;
+    }
+
+    div#main  {
+        transform: translateY(30px);
     }
 }
 
@@ -27,17 +33,22 @@
     }
 
     div#login {
-        width: 80%;
-        height: 90%;
-    }
-    div#login > div#imagem {
-        float: left;
-        width: 35%;
-        height: 100%;
-    }
-    div#login > div#formulario {
-        float: right;
-        width: 65%;
+        width: 60vw;
+        height: 70vh;
     }
 
+    div#main  {
+        transform: translateY(40px);
+    }
+
+    div#login > div#imagem {
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+    
+    div#login > div#main {
+        float: right;
+        width: 60%;
+    }
 }
